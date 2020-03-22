@@ -1,0 +1,185 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /* background: url(./img/bg.png) no-repeat; */
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #bgImg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        min-width: 1040px;
+        z-index: -10;
+        zoom: 1;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+    }
+
+    .header {
+        width: 128px;
+        height: 81px;
+        margin-bottom: 24px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+
+    .formContainer {
+        width: 400px;
+        height: 376px;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    .form {
+        width: 352px;
+        height: 291px;
+        padding: 0 24px 50px 24px;
+    }
+
+    .nav {
+        margin: 14px;
+        width: 80px;
+        height: 40px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 16px;
+        cursor: pointer;
+    }
+
+    .nav_active {
+        border-bottom: 3px solid #0084ff;
+        font-weight: 1000;
+
+    }
+
+    .inputBorder {
+        border-bottom: 1px solid #ebebeb;
+    }
+
+    .inputText {
+        /* width: 80%; */
+        height: 3rem;
+        line-height: 1.5rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+        font-size: 15px;
+    }
+
+    .inputText_2 {
+        width: 50%;
+    }
+
+    .button {
+        display: inline-block;
+        /*  */
+        color: #175199;
+        background-color: transparent;
+        font-size: 14px;
+        margin-left: 4.375rem;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        color: #76839b;
+    }
+
+    #button_2 {
+        margin-top: 0.9375rem;
+        margin-left: 15.625rem;
+        color: #76839b;
+    }
+
+    #submit {
+        border: 1px solid #0077e6;
+        background-color: #0077e6;
+        color: #fff;
+        width: 100%;
+        margin-top: 30px;
+        height: 36px;
+    }
+
+    .tip {
+        border: none;
+        width: 352px;
+        display: inline-block;
+        color: grey;
+        font-size: 13px;
+        background-color: #f6f6f6;
+        padding: 12px 24px 12px 24px;
+        overflow: hidden;
+    }
+
+    .addtion {
+        margin: 30px auto;
+        padding: 0 24px 0 24px;
+        width: 352px;
+        height: 60px;
+        color: #8590a6;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+        line-height: 60px;
+        font-size: 15px;
+        display: flex;
+        background: #fff;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .bar {
+        float: left;
+        width: 54px;
+        height: 60px;
+        /* line-height: 60px; */
+        margin-left: 10px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .inputChange::placeholder {
+        color: red;
+    }
+
+    .barText {
+        color: #0084FF;
+        font-size: 15px;
+        width: 175px;
+        /* height: 26px; */
+    }
+
+    .code {
+        float: right;
+        width: 52px;
+        height: 52px;
+        /* overflow: hidden; */
+        cursor: pointer;
+        /* display: table-cell;
+    vertical-align: middle;
+    text-align: center; */
+    }
+
+    .content img {
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+
+    #changePassword {
+        float: right;
+        line-height: 49px;
+    }
